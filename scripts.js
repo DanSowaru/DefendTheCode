@@ -123,13 +123,13 @@ function battleTurn() {
 
 function didAnyoneLoseYet() {
 	if (player1LifeTemp <= 0) {
-		endScreenImage.src = `/Images/skullwon.png`;
+		endScreenImage.src = `images/skullwon.png`;
 		endScreenText.textContent = `Unfortunately, Caveirinha has managed to subdue you and submit his resumee to your boss and WAS HIRED AS A JUNIOR DEVELOPER!
 		Now, somehow he managed to convince your boss to CHANGE ALL THE SYSTEM TO DELPHI! Oh The horror! Do you want to try again?`;
 		document.querySelector("#end-screen").classList.remove("hidden");
 		document.querySelector(".overlay").classList.remove("hidden");
 	} else if (player2LifeTemp <= 0) {
-		endScreenImage.src = `/Images/skulllost.png`;
+		endScreenImage.src = `images/skulllost.png`;
 		endScreenText.textContent = `You broke the entire Caveirinha! Congratulations! What he was thinking trying to mess with the code? Screw him! What? Are you with feather?! Take to your home, put it to sleep in your bed! Skull good is skull dead! Hey, why don't you try again to break even more os his bones? Maybe we can crush his soul this time!`;
 		document.querySelector("#end-screen").classList.remove("hidden");
 		document.querySelector(".overlay").classList.remove("hidden");
@@ -252,15 +252,15 @@ function playerAttack() {
 function attackAnimation() {
 	console.log(`Player ${activePlayer} attacked!`);
 	animationCache = document.querySelector(`#player-${activePlayer}`);
-	animationCache.src = `/Images/player-${activePlayer}--attack1.png`;
+	animationCache.src = `images/player-${activePlayer}--attack1.png`;
 	setTimeout(() => {
-		animationCache.src = `/Images/player-${activePlayer}--attack2.png`;
+		animationCache.src = `images/player-${activePlayer}--attack2.png`;
 	}, 50);
 	setTimeout(() => {
-		animationCache.src = `/Images/player-${activePlayer}--attack3.png`;
+		animationCache.src = `images/player-${activePlayer}--attack3.png`;
 	}, 100);
 	setTimeout(() => {
-		animationCache.src = `/Images/player-${activePlayer}--idle.png`;
+		animationCache.src = `images/player-${activePlayer}--idle.png`;
 	}, 200);
 }
 

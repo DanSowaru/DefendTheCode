@@ -28,6 +28,8 @@ let actionButtons = document.querySelector("#button-section");
 let endScreenImage = document.querySelector(`#end-screen-image`);
 let endScreenText = document.querySelector(`#end-screen-text`);
 const btnRestart = document.querySelector(`#restart-button`);
+const audio = document.getElementById("game-music");
+audio.volume = 0.2;
 
 let animationCache;
 let player1blocking = false;

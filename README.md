@@ -32,13 +32,13 @@ Html, Css e JavaScript vanilla.
 
 Danilo M. Soares
 
-#Sobre
+# Sobre
 
 Na hora de escolher o que fazer no projeto, uma ideia que ja tava na minha cabeça há tempos foi apresentada como opção - fazer um jogo.
 Eu ja tinha ha um tempo atras feito o mesmo jogo, mas rodando no conole do java, sem visual, com o pouco que eu sabia de Ifs e Elses e objetos pra armazenar os atributos e métodos dos personagens.
 A Escolha foi óbvia. Usar este jogo para implementar cada vez mais mais funcionalidades conforme eu as for aprendendo.
 
-#Como Jogar
+# Como Jogar
 
 Basta abrir a HTML em seu navegador de preferência menos o Edge e apertar o botão Start! para começar. No jogo você encarnaa personagem à esquerda na tela e enfrentará o personagem à direita, que chamaremos de Player1 e Player2 respectivamente.
 Seu objetivo é derrotar o Player2 em uma luta onde cada personagem fará uma ação de cada vez, alternando entre os dois Players intercaladamente.

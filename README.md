@@ -92,12 +92,12 @@ attackAnimation() => Usa o setTimeout para alternar as imagens do jogador ativo,
 
 Algumas mudanças ficaram de fora pelo curto tempo, mas que eu planejo implementar para melhorar a apresentação e funcionamento geral.
 
-- [] Implementar objetos para cada personagem em vez de variáveis soltas; Este jogo vai ficar muito mais limpo se cada personagem for seu próprio objeto com atributos e métodos internos.
-- [] Implementar diálogos entre os personagens e permitir que seja possível vencer o jogo usando os diálogos, convencendo o inimigo a se render.
-- [] Revisar e melhorar a apresentação visual e layout geral do jogo.
-- [] Implementar a possibilidade do jogador conseguir inserir os valores dos atributos do personagem, em vez de gerados aleatoriamente.
-- [] Fazer o dado aparecer durante o jogo, na tela de forma explícita ao jogador.
-- [] Implementar o log de batalha na janela, não mais no console do navegador, e com mensagens mais sensíveis ao contexto geral, não só ao evento.
-- [] Inserir mais animações, como de bloqueio, de acerto de golpe, de cura e outros mais.
+- Implementar objetos para cada personagem em vez de variáveis soltas; Este jogo vai ficar muito mais limpo se cada personagem for seu próprio objeto com atributos e métodos internos.
+- Implementar diálogos entre os personagens e permitir que seja possível vencer o jogo usando os diálogos, convencendo o inimigo a se render.
+- Revisar e melhorar a apresentação visual e layout geral do jogo.
+- Implementar a possibilidade do jogador conseguir inserir os valores dos atributos do personagem, em vez de gerados aleatoriamente.
+- Fazer o dado aparecer durante o jogo, na tela de forma explícita ao jogador.
+- Implementar o log de batalha na janela, não mais no console do navegador, e com mensagens mais sensíveis ao contexto geral, não só ao evento.
+- Inserir mais animações, como de bloqueio, de acerto de golpe, de cura e outros mais.
 
 Caso queira me ajudar a me tornar um programador melhor ou humano melhor, me contate em prof.danilomotasoares@gmail.com !

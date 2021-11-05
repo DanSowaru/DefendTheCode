@@ -4,11 +4,11 @@
 
 <!--ts-->
 
-- [Sobre] (#Sobre)
-- [Como Jogar] (#como-jogar)
-- [Conceito do Jogo] (#conceito-do-jogo)
-- [Código do Jogo] (#codigo-do-jogo)
-- [Planos de melhorias] (#planos-de-melhorias)
+- [Sobre](#Sobre)
+- [Como Jogar](#como-jogar)
+- [Conceito do Jogo](#conceito-do-jogo)
+- [Código do Jogo](#codigo-do-jogo)
+- [Planos de melhorias](#planos-de-melhorias)
 <!--te-->
 
 <h4> Status: Estável, em Construção</h4>
